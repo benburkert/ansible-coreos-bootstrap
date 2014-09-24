@@ -8,6 +8,8 @@ fi
 
 PYPY_VERSION=2.4.0
 
+cd $HOME
+
 wget https://bitbucket.org/pypy/pypy/downloads/pypy-$PYPY_VERSION-linux64.tar.bz2
 tar -xf pypy-$PYPY_VERSION-linux64.tar.bz2
 ln -s pypy-$PYPY_VERSION-linux64 pypy
